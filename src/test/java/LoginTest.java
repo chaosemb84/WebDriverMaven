@@ -33,18 +33,6 @@ public class LoginTest {
 		driver.findElement(By.id("password")).sendKeys("Ratish@123");
 		driver.findElement(By.id("submit")).click();
 		
-//		driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[2]/a")).click();
-//		driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[2]/ul/li[1]/a")).click();
-//		try {
-//			WebDriverWait wait = new WebDriverWait(driver, 10);
-//			wait.until(ExpectedConditions.alertIsPresent());
-//			
-//			Alert alert = driver.switchTo().alert();
-//            alert.accept();
-//		}catch(NoAlertPresentException noAlert) {
-//			noAlert.getMessage();
-//		}
-		
 	}
 	
 	@AfterSuite
