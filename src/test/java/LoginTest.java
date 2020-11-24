@@ -24,7 +24,7 @@ public class LoginTest {
 	}
 	
 	@Test
-	public void doLogin() {
+	public void doLogin() throws InterruptedException {
 		driver.get("http://dbankdemo.com/login");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -32,6 +32,8 @@ public class LoginTest {
 		driver.findElement(By.id("username")).sendKeys("ratish.jayemb@gmail.com");
 		driver.findElement(By.id("password")).sendKeys("Ratish@123");
 		driver.findElement(By.id("submit")).click();
+		
+		Thread.sleep(1000);
 		
 	}
 	
