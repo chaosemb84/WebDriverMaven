@@ -33,7 +33,6 @@ public class LoginTest {
 		driver.findElement(By.id("password")).sendKeys("Ratish@123");
 		driver.findElement(By.id("submit")).click();
 		
-		Thread.sleep(1000);
 		
 	}
 	
