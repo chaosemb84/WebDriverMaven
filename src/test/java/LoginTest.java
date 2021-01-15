@@ -29,9 +29,9 @@ public class LoginTest {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.id("username")).sendKeys("ratish.jayemb@gmail.com");
-		driver.findElement(By.id("password")).sendKeys("Ratish@123");
-		driver.findElement(By.id("submit")).click();
+//		driver.findElement(By.id("username")).sendKeys("ratish.jayemb@gmail.com");
+//		driver.findElement(By.id("password")).sendKeys("Ratish@123");
+//		driver.findElement(By.id("submit")).click();
 		
 		
 	}
